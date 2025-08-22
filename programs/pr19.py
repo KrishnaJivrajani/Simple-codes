@@ -1,3 +1,4 @@
+#factorial using recursion
 def fact(n):
     if(n==1):
         return 1
@@ -7,4 +8,5 @@ def fact(n):
 
 n=int(input("enter num: "))
 ans=fact(n)
+
 print(ans)
